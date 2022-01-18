@@ -17,6 +17,7 @@ import { PmProjectComponent } from './pages/side-projects/projects/pm-project/pm
 import { TspProjectComponent } from './pages/side-projects/projects/tsp-project/tsp-project.component';
 import { AqProjectComponent } from './pages/side-projects/projects/aq-project/aq-project.component';
 import { InfraProjectComponent } from './pages/side-projects/projects/infra-project/infra-project.component';
+import { AqTooltipComponent } from './aq-tooltip/aq-tooltip.component';
 
 const routes: Routes = [
   { path: 'home', component: NavigationComponent ,data: { animation: 'HomePage'}},
@@ -39,6 +40,7 @@ const routes: Routes = [
     HomeButtonComponent,
     PmProjectComponent,
     TspProjectComponent,
+    AqTooltipComponent,
     AqProjectComponent,
     InfraProjectComponent,
   ],

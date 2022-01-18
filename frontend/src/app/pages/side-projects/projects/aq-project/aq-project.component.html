@@ -1,1 +1,160 @@
-<p>aq-project works!</p>
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-2" style="text-align: center;align-items: center; justify-content: center; display: inline-flex;padding:0px; margin: 0px;
+        margin-right: -10px;">
+            
+            <p style="font-size: xx-large; font-weight: bolders;writing-mode: vertical-rl;text-orientation:sideways-right">
+                Integratability
+            </p>
+
+        </div>
+        <div class="col-md-10">
+
+            <div class="container">
+                <div class="row"
+                    style="margin-bottom: 80px;padding-bottom: 20px;; text-align: center;border-bottom: solid thin;">
+                    <div class="col-md-2" style="font-weight: bolder;">
+                        Select:
+                    </div>
+
+                    <div class="col-md-2 glow high" [ngClass]="{'active': selection === 'analysis'}"
+                        (click)="clickview('analysis')" style="cursor: pointer;">
+                        Situation
+                        <!-- <aq-tooltip [text]="'Analysis'"
+                [hover]="'Describes a class of problems which can be solved with out of the box approaches'">
+            </aq-tooltip> -->
+
+                    </div>
+                    <div class="col-md-2 glow  high" [ngClass]="{'active': selection === 'leverage'}"
+                        style="cursor: pointer;" (click)="clickview('leverage')">
+                        Leverage
+                        <!-- <aq-tooltip [text]="'Leverage'"
+                [hover]="'Describes a class of problems which can be solved with out of the box approaches'">
+            </aq-tooltip> -->
+                    </div>
+                    <div class="col-md-2 glow  high" [ngClass]="{'active': selection === 'strategy'}"
+                        style="cursor: pointer;" (click)="clickview('strategy')">
+                        Strategy
+                        <!-- <aq-tooltip [text]="'Strategy'"
+                [hover]="'Describes a class of problems which can be solved with out of the box approaches'">
+            </aq-tooltip> -->
+                    </div>
+
+                    <div class="col-md-2 glow  high" [ngClass]="{'active': selection === 'policies'}"
+                        style="cursor: pointer;" (click)="clickview('policies')">
+                        Policies
+                        <!-- <aq-tooltip [text]="'Policies'"
+                [hover]="'Describes a class of problems which can be solved with out of the box approaches'">
+            </aq-tooltip> -->
+                    </div>
+
+                    <div class="col-md-2 glow high" [ngClass]="{'active': selection === 'examples'}"
+                        style="cursor: pointer;" (click)="clickview('examples')">
+                        <aq-tooltip [text]="'Examples'"
+                            [hover]="'Describes a class of problems which can be solved with out of the box approaches'">
+                        </aq-tooltip>
+                    </div>
+                </div>
+
+                <div class="row" style="text-align: center;align-items: center;">
+                    <div class="col-md-2">
+
+                        <aq-tooltip [text]="'individual'"
+                            [hover]="'Describes a class of problems which can be solved with out of the box approaches'">
+                        </aq-tooltip>
+
+
+                    </div>
+
+                    <div class="col-md-5">
+                        <div *ngIf="selection == 'analysis'" [@inOutAnimation]
+                            style="text-align: left;align-items: left;">
+                            <br>
+                            <ul>
+                                <li>Coffee</li>
+                                <li>Tea</li>
+                                <li>Milk</li>
+                            </ul>
+
+                        </div>
+                        <div *ngIf="selection == 'leverage'" [@inOutAnimation]
+                            style="text-align: left;align-items: left;">
+                            <br>
+                            <ul>
+                                <li>Coffee</li>
+                                <li>Tea</li>
+                                <li>Milk</li>
+                            </ul>
+                        </div>
+                        <div *ngIf="selection == 'strategy'" [@inOutAnimation]
+                            style="text-align: center;align-items: center;margin-top: 30px;;">
+                            <h5>Scale</h5>
+                            <p>Bla bl aaads ds ds d d </p>
+                        </div>
+                        <div *ngIf="selection == 'policies'" [@inOutAnimation]
+                            style="text-align: left;align-items: left;">
+                            <br>
+                            <ul>
+                                <li>Coffee</li>
+                                <li>Tea</li>
+                                <li>Milk</li>
+                            </ul>
+                        </div>
+                        <div *ngIf="selection == 'examples'" [@inOutAnimation]>
+                            <h5 style="font-size: x-large;margin-top: 30px;">Scale</h5>
+                            <p>Bla bl aaads ds ds d d </p>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col-md-5">
+                        as
+                    </div>
+                </div>
+                <div class="row" style="text-align: center;align-items: center;">
+                    <div class="col-md-2">
+                        <aq-tooltip [text]="'general'"
+                            [hover]="'Describes a class of problems which can be solved with out of the box approaches'">
+                        </aq-tooltip>
+                    </div>
+                    <div class="col-md-5">
+                        as
+                    </div>
+                    <div class="col-md-5">
+                        as
+                    </div>
+
+                </div>
+
+                <div class="row" style="margin-top: 5px;">
+
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-3" style="text-align: right;">
+                        <p>
+                            <aq-tooltip [text]="'easier SOTA'"
+                                [hover]="'Describes a class of problems which can be solved with out of the box approaches'">
+                            </aq-tooltip>
+                        </p>
+                    </div>
+                    <div class="col-md-4" style="text-align: center;margin-top: 20px;">
+                        <p style="font-size: xx-large; font-weight: bolders;">
+                            Domain Knowledge
+                        </p>
+                    </div>
+                    <div class="col-md-3" style="text-align: left">
+                        <p>
+                            <aq-tooltip [text]="'harder SOTA'"
+                                [hover]="'Describes a class of problems which can be solved with out of the box approaches'">
+                            </aq-tooltip>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

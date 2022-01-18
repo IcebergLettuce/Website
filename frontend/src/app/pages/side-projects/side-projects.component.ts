@@ -9,8 +9,8 @@ export class SideProjectsComponent implements OnInit {
 
   public infraIsCollapsed = true
   public coronaIsCollapsed = true;
-  public pmIsCollapsed = false;
-  public aqIsCollapsed = true;
+  public pmIsCollapsed = true;
+  public aqIsCollapsed = false;
 
   constructor() { }
 
