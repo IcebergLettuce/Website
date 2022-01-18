@@ -1,0 +1,79 @@
+  /* Style the Un-order list by setting its list-style to none */
+  .wrapper ul {
+    list-style: none;
+  }
+  
+  /* Style the list items inside the UL list, by setting its width, height and line-height 
+    and float them to left and set its border and border-radius.
+   */
+  .wrapper ul li {
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid aliceblue;
+    transition: all 0.5s ease;
+  }
+  
+  /* Style the icons by setting its color and margin-top value to 20px 
+  to align it properly */
+  .wrapper ul li .fa {
+    color: aliceblue;
+    margin-top: 12px;
+    transition: all 0.5s ease;
+  }
+    
+  /*twitter*/
+  .wrapper ul li:hover.linkedin {
+    border: 5px solid #2867B2;
+    box-shadow: 0 0 15px #2867B2;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-linkedin {
+    color: #2867B2;
+    text-shadow: 0 0 15px #2867B2;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover.github {
+    border: 5px solid #fffff0;
+    box-shadow: 0 0 15px #fffff0;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-github {
+    color: #fffff0;
+    text-shadow: 0 0 15px #fffff0;
+    transition: all 0.5s ease;
+  }
+  
+  
+  /* media queries */
+  
+  @media screen and (max-width: 640px){
+    .wrapper {
+        width: 350px;
+    }
+    .wrapper ul li{
+        margin-top: 10px;
+    }
+    .wrapper ul li.google{
+        margin-left: 60px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 340px){
+    .wrapper {
+        width: 150px;
+    }
+    .wrapper ul li{
+        margin:15px;
+    }
+    .wrapper ul li.google{
+        margin-left: 15px;
+    }
+  }
+  
+  

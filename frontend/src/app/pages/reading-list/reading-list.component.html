@@ -1,0 +1,33 @@
+<home-button></home-button>
+
+
+<div *ngIf = "reading != null" class="container" style="margin:5%; width: 100%;">
+
+    <div class="row">
+        <div class="col-md-12 description">
+            A list of valuable links and resources.
+        </div>
+    </div>
+
+
+    <div *ngFor='let key of Object.keys(reading)'>
+
+        <div class="row">
+            <div class="col-md-12 category">
+                {{key}}
+            </div>
+        </div>
+        <div *ngFor='let item of reading[key]' class="row">
+            <div class="col-md-4 bookname">
+                <a href="https://www.linkedin.com/in/manuel-hirzel" target="_blank">
+                    {{item.Title}}
+                </a>
+            </div>
+            <div class="col-md-8 description" style="vertical-align: middle; display: flex;">
+                <span>               
+                    {{item.Description}}
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+.shake {
+    position: relative;
+    background: transparent;
+    padding: 5px 12px;
+    margin: 5px;
+    font-size: xx-large;
+    border-radius: 100%;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:lighter;
+    // text-transform: uppercase;
+  }
+
+@keyframes shake {
+  0% { 
+    transform: rotate(2deg);
+  }
+  50% {
+   transform: rotate(-3deg);
+  }
+  70% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#anim:hover {
+  animation: shake 500ms ease-in-out forwards;
+}

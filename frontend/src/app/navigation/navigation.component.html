@@ -1,0 +1,41 @@
+
+<div class="wrapper">
+    <div class="container" style="background-color: transparent;">
+        <div class="row" style="text-align: center;align-items: center;">
+            <div class="col-md-4 " style="z-index: 100;">
+            </div>
+            <div class="col-md-4" style="z-index: 100;">
+                <a href="assets/cv.pdf" download='Manuel_Alexander_Hirzel_CV.pdf'>
+                    <tooltip [text]="'CV'" [hover]="'Download CV'"></tooltip>
+                </a>
+            </div>
+            <div class="col-md-4" style="z-index: 100;">
+            </div>
+        </div>
+
+
+        <div class="row" style="text-align: center;align-items: center;">
+            <div class="col-md-4 " style="z-index: 100;">
+                <app-shake [text]="'Projects'" routerLink="/projects"></app-shake>
+            </div>
+            <div class="col-md-4" style="z-index: 100;">
+
+                <img class="grow" src="assets/manuelh.jpg" alt="Avatar" width=50% style="border-radius: 50%;">
+            </div>
+            <div class="col-md-4" style="z-index: 100; ">
+                <app-icons></app-icons>
+            </div>
+        </div>
+
+        <div class="row" style="text-align: center;align-items: center;">
+            <div class="col-md-4 " style="z-index: 100;">
+            </div>
+            <div class="col-md-4" style="z-index: 100;">
+                <app-shake [text]="'Resources'" routerLink="/reading"></app-shake>
+            </div>
+            <div class="col-md-4" style="z-index: 100;">
+            </div>
+        </div>
+
+    </div>
+</div> 

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    font-family:Ubuntu, sans-serif;
+    color: aliceblue;
+}
+
+.bookname {
+    
+    font-family:Ubuntu, sans-serif;
+    color: aliceblue;
+    font-size: xx-large;
+}
+.description {
+    
+    font-family:Ubuntu, sans-serif;
+    color: aliceblue;
+    font-size: medium;
+
+    text-align: left;
+    align-items: center;
+
+}
+.category {
+    
+    font-family:Ubuntu, sans-serif;
+    color: aliceblue;
+    border-bottom:1px solid;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+
+
+
+@import '~bootstrap/scss/bootstrap';

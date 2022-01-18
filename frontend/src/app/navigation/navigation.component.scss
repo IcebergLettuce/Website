@@ -1,0 +1,29 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+
+.row {
+    padding: 1rem;
+}
+
+img {
+    display: inline-block;
+    width: 4.2em;
+
+    &.grow {
+      transition: all .2s ease-in-out;
+
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+  }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh;
+    align-items: center;
+    justify-items: center; /* adjusted */
+  }

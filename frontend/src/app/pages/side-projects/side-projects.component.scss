@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import '~bootstrap/scss/bootstrap';
+
+* {
+    font-family:Ubuntu, sans-serif;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.card {
+    background: transparent;
+    font-size: medium;
+    font-weight:normal;
+}
+
+p {
+    font-size: medium;
+    font-weight:normal;
+}
