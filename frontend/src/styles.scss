@@ -5,7 +5,7 @@
   $text-shadow: ();
   @for $i from 0 through $count {
     $text-shadow: $text-shadow,
-      (0.5+ (random()) * 1) + em (-0.5+ (random()) * 1) + em 7px hsla(random() *360, 200%, 50%, 1);
+      (1.0+ (random()) * 1) + em (-1.0+ (random()) * 1) + em 7px hsla(random() *360, 200%, 50%, 1);
   }
   text-shadow: $text-shadow;
 }
@@ -41,18 +41,16 @@ body {
 
 .animated-container {
   background: black;
-  padding: 0px;
-  margin: 0px;
   color: transparent;
 }
 
 .animated-container::before,
 animated-container::after {
   position: fixed;
-  top: 30%;
-  left: 40%;
-  width: 1em;
-  height: 1em;
+  top: 20%;
+  left: 20%;
+  width: 0em;
+  height: 0em;
   content: ".";
   mix-blend-mode: screen;
   animation: 30s -30s move infinite ease-in-out alternate;
@@ -72,9 +70,9 @@ animated-container::after {
 
 @keyframes move {
   from {
-    transform: rotate(-90deg) scale(15); //translateX(-20px);
+    transform: rotate(0deg) scale(8); //translateX(-20px);
   }
   to {
-    transform: rotate(0deg) scale(20); //translateX(20px);
+    transform: rotate(30deg) scale(15); //translateX(20px);
   }
 }
