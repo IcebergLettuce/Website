@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
+import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { faArrowAltCircleLeft, faArrowAltCircleRight, faGrin } from '@fortawesome/free-regular-svg-icons';
+import { faArrowCircleLeft } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'home-button',
@@ -7,8 +9,11 @@ import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./home-button.component.scss']
 })
 export class HomeButtonComponent implements OnInit {
-  faCoffee = faArrowAltCircleLeft;
-  constructor() { }
+  constructor(library: FaIconLibrary) {
+    library.addIcons(
+      faArrowAltCircleLeft,
+    );
+  }
 
   ngOnInit(): void {
   }
