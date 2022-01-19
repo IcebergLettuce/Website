@@ -7,11 +7,7 @@
     and float them to left and set its border and border-radius.
    */
   .wrapper ul li {
-    width: 75px;
-    height: 75px;
     cursor: pointer;
-    border-radius: 50%;
-    border: 5px solid aliceblue;
     transition: all 0.5s ease;
   }
   
@@ -19,14 +15,11 @@
   to align it properly */
   .wrapper ul li .fa {
     color: aliceblue;
-    margin-top: 12px;
     transition: all 0.5s ease;
   }
     
   /*twitter*/
   .wrapper ul li:hover.linkedin {
-    border: 5px solid #2867B2;
-    box-shadow: 0 0 15px #2867B2;
     transition: all 0.5s ease;
   }
   
@@ -37,8 +30,6 @@
   }
   
   .wrapper ul li:hover.github {
-    border: 5px solid #fffff0;
-    box-shadow: 0 0 15px #fffff0;
     transition: all 0.5s ease;
   }
   
