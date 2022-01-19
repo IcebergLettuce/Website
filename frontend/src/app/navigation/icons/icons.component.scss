@@ -44,26 +44,26 @@
   
   @media screen and (max-width: 640px){
     .wrapper {
-        width: 350px;
+        width: 100%;
     }
     .wrapper ul li{
         margin-top: 10px;
     }
     .wrapper ul li.google{
-        margin-left: 60px;
+        margin-left: 0px;
     }
   }
   
   
   @media screen and (max-width: 340px){
     .wrapper {
-        width: 150px;
+      width: 100%;
     }
     .wrapper ul li{
-        margin:15px;
+        margin:0px;
     }
     .wrapper ul li.google{
-        margin-left: 15px;
+        margin-left: 0px;
     }
   }
   
