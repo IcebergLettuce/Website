@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IconsComponent implements OnInit {
 
+  mail = "manuel@hirzel.technology"
+  toggle = false
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onHover(){
+    this.toggle = !this.toggle
+  }
 }

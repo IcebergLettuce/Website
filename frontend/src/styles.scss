@@ -53,7 +53,7 @@ animated-container::after {
   height: 0em;
   content: ".";
   mix-blend-mode: screen;
-  animation: 30s -30s move infinite ease-in-out alternate;
+  animation: 20s -30s move infinite ease-in-out alternate;
 }
 
 .animated-container::before {

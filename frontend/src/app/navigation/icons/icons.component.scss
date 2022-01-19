@@ -18,6 +18,19 @@
     transition: all 0.5s ease;
   }
     
+  envelope
+
+
+  .wrapper ul li:hover.envelope {
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-envelope {
+    color: palevioletred;
+    text-shadow: 0 0 15px palevioletred;
+    transition: all 0.5s ease;
+  }
+
   /*twitter*/
   .wrapper ul li:hover.linkedin {
     transition: all 0.5s ease;
