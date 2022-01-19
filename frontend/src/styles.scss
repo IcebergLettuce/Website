@@ -54,17 +54,17 @@ animated-container::after {
   height: 1em;
   content: ".";
   mix-blend-mode: screen;
-  animation: 15s -15s move infinite ease-in-out alternate;
+  animation: 30s -30s move infinite ease-in-out alternate;
 }
 
 .animated-container::before {
-  @include dots(15);
+  @include dots(20);
   animation-duration: 40;
   animation-delay: 40;
 }
 
 .animated-container::after {
-  @include dots(15);
+  @include dots(20);
   animation-duration: 40;
   animation-delay: 40;
 }
