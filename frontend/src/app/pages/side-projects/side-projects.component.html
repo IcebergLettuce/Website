@@ -3,6 +3,19 @@
 
 <div class="container" style="margin:5%; width: 100%;">
 
+
+    <div class="row">   
+        <div class="col-md-12">
+            <h1 (click)="collapse3.toggle()" style="cursor: pointer;">Automated Development Infrastructure</h1>
+              <div #collapse3="ngbCollapse" [(ngbCollapse)]="infraIsCollapsed">
+                <div class="card">
+                  <div class="card-body">
+                    <app-infra-project></app-infra-project>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-12">
             <h1 (click)="collapse1.toggle()" style="cursor: pointer;">Predictive Maintenance</h1>
@@ -32,19 +45,6 @@
         </div>
     </div>
 
-
-    <div class="row">   
-        <div class="col-md-12">
-            <h1 (click)="collapse3.toggle()" style="cursor: pointer;">Automated Development Infrastructure</h1>
-              <div #collapse3="ngbCollapse" [(ngbCollapse)]="infraIsCollapsed">
-                <div class="card">
-                  <div class="card-body">
-                    <app-infra-project></app-infra-project>
-                  </div>
-                </div>
-              </div>
-        </div>
-    </div>
 
     <div class="row">   
         <div class="col-md-12">
