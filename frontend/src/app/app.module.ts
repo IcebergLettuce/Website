@@ -24,7 +24,7 @@ const routes: Routes = [
   { path: 'reading', component: ReadingListComponent,data: { animation: 'ContentPage'}},
   { path: 'projects', component: SideProjectsComponent  ,data: { animation: 'ContentPage'} },
  { path: '',   redirectTo: '/home', pathMatch: 'full'}, // redirect to `first-component`
- { path: '**',   redirectTo: '/home', pathMatch: 'full'}, // redirect to `first-component`
+//  { path: '**',   redirectTo: '/home', pathMatch: 'full'}, // redirect to `first-component`
 
 ];
 
