@@ -1,88 +1,71 @@
 {
-    "Kubernetes":[
+    "Kubernetes": [
         {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
+            "Url": "https://loft.sh/blog/kubernetes-network-policies-a-practitioners-guide/",
+            "Title": "Kubernetes Network Policies: A Practitioner's Guide",
+            "Description": "Providing security for our infrastructure and applications is a never-ending continuous process. This article will talk about security in Kubernetes clusters, traffic incoming and outgoing to/from the cluster, and the traffic within the cluster."
         },
         {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
+            "Url": "https://iximiuz.com/en/posts/container-learning-path/",
+            "Title": "Containers",
+            "Description": "Learning Containers From The Bottom Up: Efficient Learning Path to Grasp Containers Fundamentals"
         }
     ],
-
-    "Management":[
+    "Networking": [
         {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
+            "Url": "https://hpbn.co/",
+            "Title": "High Performance Browser Networking",
+            "Description": "Performance is a feature. This book provides a hands-on overview of what every web developer needs to know about the various types of networks (WiFi, 3G/4G), transport protocols (UDP, TCP, and TLS), application protocols (HTTP/1.1, HTTP/2), and APIs available in the browser (XHR, WebSocket, WebRTC, and more) to deliver the best—fast, reliable, and resilient—user experience. "
         },
         {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
+            "Url": "https://www.youtube.com/c/PracticalNetworking",
+            "Title": "Practical Networking",
+            "Description": "The ultimate video series which will teach you the core of Networking: How data flows through the Internet. We start by outlining the various Network Devices that exist. Then we discuss the OSI model as a framework for understanding how Network Communication occurs. Then we look at EVERYTHING: - a host does when speaking to another host - a switch does when forwarding frames - a router does when forwarding packets After watching this entire series, you will understand all the necessary events that occur for data to flow through a network."
         }
     ],
-    "Management1":[
+    "Management": [
         {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
+            "Url": "https://www.amazon.de/Extreme-Ownership-Navy-Seals-Lead/dp/1250183863/ref=sr_1_1?adgrpid=72855502282&gclid=Cj0KCQiAip-PBhDVARIsAPP2xc3C-44fOsziNLVn0bj7vhFLeL6c1xtfnyQJRg3q34pcBkwfRiN8Za4aAmxnEALw_wcB&hvadid=353045991574&hvdev=c&hvlocphy=9043090&hvnetw=g&hvqmt=e&hvrand=3073909016515576990&hvtargid=kwd-301351891132&hydadcr=4802_1718881&keywords=extreme+ownership&qid=1642614045&sr=8-1",
+            "Title": "Extreme Ownership",
+            "Description": "How U.S. Navy SEALs Lead and Win "
         },
         {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
+            "Url": "https://www.amazon.de/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=asc_df_1491973897/?tag=googshopde-21&linkCode=df0&hvadid=310692950561&hvpos=&hvnetw=g&hvrand=16022307781121925589&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9043090&hvtargid=pla-315801134375&psc=1&th=1&psc=1&tag=&ref=&adgrpid=57333408930&hvpone=&hvptwo=&hvadid=310692950561&hvpos=&hvnetw=g&hvrand=16022307781121925589&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9043090&hvtargid=pla-315801134375",
+            "Title": "The Manager's Path",
+            "Description": "A Guide for Tech Leaders Navigating Growth and Change"
         }
     ],
-    "Management2":[
+    "Data Engineering": [
         {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
+            "Url": "https://www.academia.edu/41298363/Designing_Data_Intensive_Applications_THE_BIG_IDEAS_BEHIND_RELIABLE_SCALABLE_AND_MAINTAINABLE_SYSTEMS",
+            "Title": "Designing Data-Intensive Applications",
+            "Description": "THE BIG IDEAS BEHIND RELIABLE, SCALABLE, AND MAINTAINABLE SYSTEMS"
+        }
+    ],
+    "Investing": [
+        {
+            "Url": "https://andrewchen.com/",
+            "Title": "Andrew Chen",
+            "Description": "These days, I’m an investor at Andreessen Horowitz, where I focus on consumer products, marketplaces, and bottoms up SaaS. Previously, I led growth teams at Uber. I’ll share from these experiences, and more, on my newsletter."
+        }
+    ],
+    "Deep Learning": [
+        {
+            "Url": "https://huggingface.co/",
+            "Title": "Hugging Face",
+            "Description": "Build, train and deploy state of the art models powered by the reference open source in machine learning. "
+        }
+    ],
+    "Software Engineering": [
+        {
+            "Url": "https://clean-code-developer.com/",
+            "Title": "Clean Code Developer",
+            "Description": "An initiative for more professionalism in software development"
         },
         {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
-        },
-        {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
-        },
-        {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
-        },
-        {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
-        },
-        {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
-        },
-        {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
-        },
-        {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
-        },
-        {
-            "Url":"https://watson.ch",
-            "Title": "Kubernetes Networking",
-            "Description":"In depth dive of K8 Networking"
+            "Url": "https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51",
+            "Title": "Disasters I've seen in a microservices world ",
+            "Description": "Blog by João Alves"
         }
     ]
-
-
 }

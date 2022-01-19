@@ -17,9 +17,9 @@
                 {{key}}
             </div>
         </div>
-        <div *ngFor='let item of reading[key]' class="row">
+        <div *ngFor='let item of reading[key]' class="row" style="border:transparent;border-bottom:aliceblue;border-width: 1px; border-style: dashed;padding: 10px;">
             <div class="col-md-4 bookname">
-                <a href="https://www.linkedin.com/in/manuel-hirzel" target="_blank">
+                <a href="{{item.Url}}" target="_blank" rel="noopener noreferrer">
                     {{item.Title}}
                 </a>
             </div>
