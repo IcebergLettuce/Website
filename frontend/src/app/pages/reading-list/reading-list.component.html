@@ -17,13 +17,13 @@
                 {{key}}
             </div>
         </div>
-        <div *ngFor='let item of reading[key]' class="row" style="border:transparent;border-bottom:aliceblue;border-width: 1px; border-style: dashed;padding: 10px;">
-            <div class="col-md-4 bookname">
-                <a href="{{item.Url}}" target="_blank" rel="noopener noreferrer">
+        <div *ngFor='let item of reading[key]' class="row" style="border:transparent;border-bottom:aliceblue;padding: 10px;">
+            <div class="col-md-5 bookname" >
+                <a href="{{item.Url}}" target="_blank" rel="noopener noreferrer" style="font-size:large">
                     {{item.Title}}
                 </a>
             </div>
-            <div class="col-md-8 description" style="vertical-align: middle; display: flex;">
+            <div class="col-md-7 description" style="vertical-align: middle; display: flex;">
                 <span>               
                     {{item.Description}}
                 </span>
