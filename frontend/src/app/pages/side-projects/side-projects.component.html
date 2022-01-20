@@ -3,16 +3,10 @@
 <div >
 <div class="container" style="margin:5%; width: 100%;">
 
-  <div class="row" style="margin-bottom: 100px;">
-    <div class="col-md-12" style="font-size: xxx-large;color: aqua;">
-      ----> WORK IN PROGRESS (will be ready soon)
-    </div>
-  </div>
-
     
     <div class="row">
         <div class="col-md-12">
-            <h1 (click)="collapse1.toggle()" style="cursor: pointer;"> Predicting outages of chocolate manufacturing plants.</h1>
+            <h1 (click)="collapse1.toggle()" class ="glow" style="cursor: pointer;"> Predicting outages of chocolate manufacturing plants.</h1>
               <div #collapse1="ngbCollapse" [(ngbCollapse)]="pmIsCollapsed">
                 <div class="card">
                   <div class="card-body">
@@ -25,46 +19,60 @@
         </div>
     </div>
 
-    <div class="row">   
+    <div class="row" style ="font-size: medium;">
+      <div class="col-md-12">
+        More will be ready soon...
+      </div>
+
+    </div>
+
+    <!-- <div class="row">   
       <div class="col-md-12">
           <h1 (click)="collapse3.toggle()" style="cursor: pointer;">Playground as Code</h1>
             <div #collapse3="ngbCollapse" [(ngbCollapse)]="infraIsCollapsed">
               <div class="card">
                 <div class="card-body">
+
+                  WORK IN PROGRESS (will be ready soon)
+
                   <app-infra-project></app-infra-project>
                 </div>
               </div>
             </div>
       </div>
-  </div>
+  </div> -->
 
 
-    <div class="row">
+    <!-- <div class="row">
         
         <div class="col-md-12">
             <h1 (click)="collapse2.toggle()" style="cursor: pointer;">ML Quadrant</h1>
               <div #collapse2="ngbCollapse" [(ngbCollapse)]="aqIsCollapsed">
                 <div class="card">
                   <div class="card-body">
+                    WORK IN PROGRESS (will be ready soon)
+
                     <app-aq-project></app-aq-project>
                   </div>
                 </div>
               </div>
         </div>
-    </div>
+    </div> -->
 
 
-    <div class="row">   
+    <!-- <div class="row">   
         <div class="col-md-12">
             <h1 (click)="collapse4.toggle()" style="cursor: pointer;">Corona Dashboard & Germany's Super Election</h1>
               <div #collapse4="ngbCollapse" [(ngbCollapse)]="coronaIsCollapsed">
                 <div class="card">
                   <div class="card-body">
+                    WORK IN PROGRESS (will be ready soon)
+
                     <app-tsp-project></app-tsp-project>
                   </div>
                 </div>
               </div>
         </div>
-    </div>
+    </div> -->
 </div>
 </div>

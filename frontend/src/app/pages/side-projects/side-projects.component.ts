@@ -9,7 +9,7 @@ export class SideProjectsComponent implements OnInit {
 
   public infraIsCollapsed = true
   public coronaIsCollapsed = true;
-  public pmIsCollapsed = false;
+  public pmIsCollapsed = true;
   public aqIsCollapsed = true;
 
   constructor() { }

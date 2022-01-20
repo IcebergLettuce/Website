@@ -21,3 +21,11 @@ p {
     font-size: medium;
     font-weight:normal;
 }
+
+
+.glow:hover {
+    //border: 1px solid aliceblue;
+    text-shadow: 0 0 15px aliceblue;
+    transition: all 0.2s ease;
+  }
+  
