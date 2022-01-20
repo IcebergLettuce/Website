@@ -9,18 +9,7 @@
     </div>
   </div>
 
-    <div class="row">   
-        <div class="col-md-12">
-            <h1 (click)="collapse3.toggle()" style="cursor: pointer;">Playground as Code</h1>
-              <div #collapse3="ngbCollapse" [(ngbCollapse)]="infraIsCollapsed">
-                <div class="card">
-                  <div class="card-body">
-                    <app-infra-project></app-infra-project>
-                  </div>
-                </div>
-              </div>
-        </div>
-    </div>
+    
     <div class="row">
         <div class="col-md-12">
             <h1 (click)="collapse1.toggle()" style="cursor: pointer;"> Predicting outages of chocolate manufacturing plants.</h1>
@@ -35,6 +24,20 @@
 
         </div>
     </div>
+
+    <div class="row">   
+      <div class="col-md-12">
+          <h1 (click)="collapse3.toggle()" style="cursor: pointer;">Playground as Code</h1>
+            <div #collapse3="ngbCollapse" [(ngbCollapse)]="infraIsCollapsed">
+              <div class="card">
+                <div class="card-body">
+                  <app-infra-project></app-infra-project>
+                </div>
+              </div>
+            </div>
+      </div>
+  </div>
+
 
     <div class="row">
         
