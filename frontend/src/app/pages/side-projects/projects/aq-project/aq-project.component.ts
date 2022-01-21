@@ -31,7 +31,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AqProjectComponent implements OnInit {
 
-  public selection = "strategy"
+  public selection = "examples"
 
   constructor() { }
 
