@@ -1,0 +1,45 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 d-none d-lg-block">
+            <a class="nav-link glow" routerLink="/home">Home </a>
+        </div>
+        <!-- <div class="col-md-3 d-none d-lg-block">
+            <a class="nav-link glow" routerLink="/home">CV </a>
+        </div> -->
+        <div class="col-md-4 d-none d-lg-block">
+            <a class="nav-link glow" routerLink="/projects">Projects </a>
+        </div>
+        <div class="col-md-4 d-none d-lg-block">
+            <a class="nav-link glow" routerLink="/reading">Resources </a>
+        </div>
+    </div>
+    
+
+    <div class="row" style="text-align: center; padding-bottom: 10%;">
+        <div class="col-12 d-lg-none" (click)= toggleMenu()>
+
+            <fa-icon style="color: aliceblue; cursor: pointer;" class="fa-1x" [icon]="'bars'">sa
+            </fa-icon>
+
+        </div>
+    </div>
+
+    <div *ngIf="toggle" class="row d-lg-none" style="text-align: center;margin-bottom: 15%;">
+        <div class="col-md-4">
+            <a class="nav-link" routerLink="/home">Home </a>
+        </div>
+        <!-- <div class="col-md-3">
+            <a class="nav-link" routerLink="/home">CV </a>
+        </div> -->
+        <div class="col-md-4">
+            <a class="nav-link" routerLink="/projects">Projects </a>
+        </div>
+        <div class="col-md-4">
+            <a class="nav-link" routerLink="/reading">Resources </a>
+        </div>
+    </div>
+
+
+</div>
+

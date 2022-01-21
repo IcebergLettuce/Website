@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import '~bootstrap/scss/bootstrap';
+
+* {
+    font-style: Ubuntu sans-serif;
+    color: aliceblue;
+    font-weight: bolder;
+    background: transparent;
+}
+
+mynav, a {
+    font-style: Ubuntu sans-serif;
+    color: aliceblue;
+    background: transparent;
+    font-size: large;
+}
+mynav {
+    margin-left: 20%;
+}
+
+.glow:hover {
+    //border: 1px solid aliceblue;
+    text-shadow: 0 0 20px aliceblue;
+    color:aliceblue;
+    transition: all 0.2s ease;
+  }
