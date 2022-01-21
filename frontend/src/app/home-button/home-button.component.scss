@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import '~bootstrap/scss/bootstrap';
+
+
+.fancybutton {
+    background-color: transparent;
+    border-color:transparent;
+}
+.fancybutton:hover{
+    background-color:transparent;
+    text-shadow:aliceblue 20px;;
+
+}
