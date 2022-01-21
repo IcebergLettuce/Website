@@ -8,9 +8,12 @@
     <div class="col-md-12">
       <h1 (click)="collapse1.toggle()" class="glow" style="cursor: pointer;"> Predicting outages of chocolate
         manufacturing plants.</h1>
-
     </div>
   </div>
+
+
+
+
   <div class="row">
     <div class="col-md-12">
       <div #collapse1="ngbCollapse" [(ngbCollapse)]="pmIsCollapsed">
@@ -25,36 +28,19 @@
     </div>
   </div>
 
-  <!-- <div class="row">   
-      <div class="col-md-12">
-          <h1 (click)="collapse3.toggle()" style="cursor: pointer;">Playground as Code</h1>
-            <div #collapse3="ngbCollapse" [(ngbCollapse)]="infraIsCollapsed">
-              <div class="card">
-                <div class="card-body">
-
-                  WORK IN PROGRESS (will be ready soon)
-
-                  <app-infra-project></app-infra-project>
-                </div>
-              </div>
-            </div>
-      </div>
-  </div> -->
-
-
   <div class="row">
-        
-        <div class="col-md-12">
-            <h1 (click)="collapse2.toggle()" style="cursor: pointer;">ML Quadrant : An idea to structure the ML platform design process.</h1>
-              <div #collapse2="ngbCollapse" [(ngbCollapse)]="aqIsCollapsed">
-                <div class="card">
-                  <div class="card-body">
-                    <app-aq-project></app-aq-project>
-                  </div>
-                </div>
-              </div>
+    <div class="col-md-12">
+      <h1 (click)="collapse2.toggle()" style="cursor: pointer;">ML Quadrant : An idea to structure the ML platform
+        design process.</h1>
+      <div #collapse2="ngbCollapse" [(ngbCollapse)]="aqIsCollapsed">
+        <div class="card">
+          <div class="card-body">
+            <app-aq-project></app-aq-project>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 
 
   <!-- <div class="row">   
