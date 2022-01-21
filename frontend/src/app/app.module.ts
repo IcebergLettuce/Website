@@ -23,6 +23,9 @@ const routes: Routes = [
   { path: 'home', component: NavigationComponent ,data: { animation: 'HomePage'}},
   { path: 'reading', component: ReadingListComponent,data: { animation: 'ContentPage'}},
   { path: 'projects', component: SideProjectsComponent  ,data: { animation: 'ContentPage'} },
+  { path: 'projects/1', component: PmProjectComponent  ,data: { animation: 'ContentPage'} },
+  { path: 'projects/2', component: AqProjectComponent  ,data: { animation: 'ContentPage'} },
+
  { path: '',   redirectTo: '/home', pathMatch: 'full'}, // redirect to `first-component`
 //  { path: '**',   redirectTo: '/home', pathMatch: 'full'}, // redirect to `first-component`
 

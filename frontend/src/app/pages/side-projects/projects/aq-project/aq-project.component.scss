@@ -1,6 +1,10 @@
 @import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
+* {
+    color: aliceblue;
+    font-family:Ubuntu, sans-serif
+  }
 
 .slist{
     font-size: medium; text-align: left;

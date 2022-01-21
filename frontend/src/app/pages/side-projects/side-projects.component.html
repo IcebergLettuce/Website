@@ -1,5 +1,78 @@
 <home-button></home-button>
 
+<div class="card-columns" style="margin-left: 10%; margin-right: 10%;margin-bottom: 10%;">
+  <div class="card p-1" style="border-style: solid; border-color: aliceblue;">
+    <!-- <img class="card-img-top" src="assets/meetup1.jpg" alt="Card image cap"> -->
+    <div class="card-body">
+      <h5 class="card-title">Predictive Maintenance</h5>
+      <p class="card-text">
+
+      <div [(ngbCollapse)]="!pmIsCollapsed">
+        <p>
+          In 2010, I worked as an automation engineer at one of the largest chocolate manufacturers worldwide. In
+          contrast to the company's television advertising, which portrays the production of chocolate as an
+          artisanal activity, it is a highly automated industrial process...</p>
+      </div>
+
+      <div #collapse1="ngbCollapse" [(ngbCollapse)]="pmIsCollapsed">
+        <app-pm-project></app-pm-project>
+      </div>
+
+      <div [(ngbCollapse)]="pmIsCollapsed">
+        <a (click)="collapse1.toggle()" class="btn btn-primary fancybutton" style="font-size: small;">Show less</a>
+      </div>
+
+      <div [(ngbCollapse)]="!pmIsCollapsed">
+        <a (click)="collapse1.toggle()" class="btn btn-primary fancybutton" style="font-size: small;">Read more</a>
+      </div>
+
+    </div>
+  </div>
+
+ 
+
+
+  <div class="card p-1" style="border-style: solid; border-color: aliceblue;">
+    <!-- <img class="card-img-top" src="assets/meetup1.jpg" alt="Card image cap"> -->
+    <div class="card-body">
+      <h5 class="card-title">ML Quadrant</h5>
+      <p class="card-text">
+
+      <div [(ngbCollapse)]="!aqIsCollapsed">
+        <p>
+          ...on the other hand, assume creating an ML model for a medical use case. Without profound medical
+          knowledge,
+          you probably have difficulty building a model outperforming your competitors. Also, the requirements for
+          such a model are entirely different. For a medical ML model, explainability and trustworthiness will be
+          exceptionally important.
+          This might be neglectable for a trading model as long it is profitable...</p>
+      </div>
+
+      <div #collapse2="ngbCollapse" [(ngbCollapse)]="aqIsCollapsed">
+        <app-aq-project></app-aq-project>
+      </div>
+
+      <div [(ngbCollapse)]="aqIsCollapsed">
+        <a (click)="collapse2.toggle()" class="btn btn-primary fancybutton" style="font-size: small;">Show less</a>
+      </div>
+
+      <div [(ngbCollapse)]="!aqIsCollapsed">
+        <a (click)="collapse2.toggle()" class="btn btn-primary fancybutton" style="font-size: small;">Read more</a>
+      </div>
+
+    </div>
+  </div>
+
+ 
+
+
+
+</div>
+
+
+
+
+<!-- 
 
 
 <div class="container" style="margin:5%;width: 100%; padding:0%;">
@@ -17,7 +90,7 @@
   <div class="row">
     <div class="col-md-12">
       <div #collapse1="ngbCollapse" [(ngbCollapse)]="pmIsCollapsed">
-        <app-pm-project></app-pm-project> 
+        <app-pm-project></app-pm-project>
       </div>
 
     </div>
@@ -34,7 +107,7 @@
     </div>
   </div>
 
-  <div class="row" >
+  <div class="row">
     <div class="col-md-12">
 
 
@@ -43,10 +116,10 @@
       </div>
 
     </div>
-  </div>
+  </div> -->
 
 
-  <!-- <div class="row">   
+<!-- <div class="row">   
         <div class="col-md-12">
             <h1 (click)="collapse4.toggle()" style="cursor: pointer;">Corona Dashboard & Germany's Super Election</h1>
               <div #collapse4="ngbCollapse" [(ngbCollapse)]="coronaIsCollapsed">
@@ -60,4 +133,4 @@
               </div>
         </div>
     </div> -->
-</div>
+<!-- </div> -->

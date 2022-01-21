@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import '~bootstrap/scss/bootstrap';
 
+
+
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 1;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 1;
+    }
+  }
 * {
     font-family:Ubuntu, sans-serif;
     color: aliceblue;
@@ -22,6 +32,15 @@ p {
     font-weight:normal;
 }
 
+.fancybutton {
+    background-color: transparent;
+    border-color:aliceblue;
+}
+.fancybutton:hover{
+    background-color:aliceblue;
+    color:black;
+
+}
 
 .glow:hover {
     //border: 1px solid aliceblue;
