@@ -1,5 +1,7 @@
 <home-button></home-button>
 
+
+
 <div class="container" style="margin:5%;width: 100%; padding:0%;">
 
 
@@ -12,33 +14,34 @@
   </div>
 
 
-
-
   <div class="row">
     <div class="col-md-12">
       <div #collapse1="ngbCollapse" [(ngbCollapse)]="pmIsCollapsed">
-        <!-- <div class="card">
-                  <div class="card-body"> -->
-        <app-pm-project></app-pm-project>
-        <!--                 
-                </div>
-                </div> -->
+        <app-pm-project></app-pm-project> 
       </div>
 
     </div>
   </div>
 
+
+
   <div class="row">
-    <div class="col-md-12">
-      <h1 (click)="collapse2.toggle()" style="cursor: pointer;">ML Quadrant : An idea to structure the ML platform
+
+    <div class="col-md-12" style="margin-bottom: 50px;">
+      <h1 (click)="collapse2.toggle()" class="glow" style="cursor: pointer;"> ML Quadrant : An idea to structure the ML
+        platform
         design process.</h1>
+    </div>
+  </div>
+
+  <div class="row" >
+    <div class="col-md-12">
+
+
       <div #collapse2="ngbCollapse" [(ngbCollapse)]="aqIsCollapsed">
-        <div class="card">
-          <div class="card-body">
-            <app-aq-project></app-aq-project>
-          </div>
-        </div>
+        <app-aq-project></app-aq-project>
       </div>
+
     </div>
   </div>
 
