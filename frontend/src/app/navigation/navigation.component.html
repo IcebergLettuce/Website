@@ -29,10 +29,16 @@
             <div class="col-md-4 " style="z-index: 100;">
                 <app-shake [text]="'Projects'" routerLink="/projects"></app-shake>
             </div>
-            <div class="col-md-4 d-none d-lg-block" style="z-index: 100;">
 
+            <div class="col-md-4 d-none d-lg-block" style="z-index: 100;">
                 <img src="assets/manuelh.jpg" alt="Avatar" style="border-radius: 50%;">
             </div>
+
+            <div class="col-md-4 d-lg-none" style="z-index: 100;"> <br>
+                <app-shake [text]="'Resources'" routerLink="/reading"></app-shake>
+            </div>
+
+
             <div class="col-md-4">
                 <app-icons></app-icons>
             </div>
@@ -41,7 +47,7 @@
         <div class="row" style="text-align: center;align-items: center;">
             <div class="col-md-4" style="z-index: 100;">
             </div>
-            <div class="col-md-4" style="z-index: 100;">
+            <div class="col-md-4  d-none d-lg-block" style="z-index: 100;">
                 <app-shake [text]="'Resources'" routerLink="/reading"></app-shake>
             </div>
             <div class="col-md-4" style="z-index: 100;">
