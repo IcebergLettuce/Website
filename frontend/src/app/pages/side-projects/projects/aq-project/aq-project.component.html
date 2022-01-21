@@ -93,7 +93,9 @@
                 finding a focus for your ML platform.
             </span>
             <br><br>
-
+            Important: I do not claim that these strategies are mutually exclusive, and I think a mature ML platform can cover all
+            of them. Nevertheless, we have to start somewhere. And there is definitely room to improve the ML Quadrant
+            as a tool. This should just sketch a possible approach to structure the design process.
 
         </div>
     </div>
@@ -105,8 +107,7 @@
 
     <div class="row d-none d-lg-block" style="margin-top: 50px;;">
         <span style="font-size: medium; font-style: italic;"> You can hover over the visualization below and click
-            yourself
-            through the examples to grasp the idea.</span>
+            yourself through the examples to grasp the idea.</span>
     </div>
 
     <div class="row  d-none d-lg-block" style="margin-top: 100px;">
@@ -180,7 +181,7 @@
                             style="text-align: center;align-items: center;">
                             <h5 style="font-size: x-large; padding-top:5%;">Insurance Risk Stratification</h5>
 
-                            
+
                             <ul class="slist2">
                                 <li>Once you have access, make sure that it is only you.</li>
                                 <li>Create a long-term relationship.</li>
@@ -191,8 +192,9 @@
                             style="text-align: center;align-items: center;;">
                             <h5 style="font-size: xxx-large; padding:5%;font-weight: bolder;">Lock-In</h5>
 
-                            <p class="stext">Make it difficult for the consumer to switch to another provider. As the problem is easy to solve, many competitors wait for their chance.</p>
-                          
+                            <p class="stext">Make it difficult for the consumer to switch to another provider. As the
+                                problem is easy to solve, many competitors wait for their chance.</p>
+
 
                         </div>
                         <div *ngIf="selection == 'policies'" [@inOutAnimation]
@@ -233,7 +235,7 @@
                             style="text-align: center;align-items: center;">
                             <h5 style="font-size: x-large; padding-top:5%;">ML in Radiology</h5>
 
-                            
+
                             <ul class="slist2">
                                 <li>Provide the very best models avialable.</li>
                                 <li>Work closely with research institutions.</li>
@@ -243,8 +245,9 @@
                             style="text-align: center;align-items: center;;">
                             <h5 style="font-size: xxx-large; padding:5%;font-weight: bolder;">Crowdsource</h5>
 
-                            <p class="stext">Market entry is difficult for individuals - pay them a premium to contribute and improve your algorithms.</p>
-                          
+                            <p class="stext">Market entry is difficult for individuals - pay them a premium to
+                                contribute and improve your algorithms.</p>
+
 
                         </div>
                         <div *ngIf="selection == 'policies'" [@inOutAnimation]
@@ -262,7 +265,7 @@
                             <h5 style="font-size: x-large; padding-top:5%;">ML in Radiology</h5>
                             <ul class="slist">
                                 <li>Cancer detetction in MRI/CT.</li>
-                                
+
                             </ul>
                         </div>
 
@@ -277,54 +280,55 @@
                     <div class="col-md-5">
 
                         <div *ngIf="selection == 'analysis'" [@inOutAnimation]
-                        style="text-align: center;align-items: center;">
-                        <h5 style="font-size: x-large; padding-top:5%;">Algorithmic Trading</h5>
+                            style="text-align: center;align-items: center;">
+                            <h5 style="font-size: x-large; padding-top:5%;">Algorithmic Trading</h5>
 
-                        <ul class="slist2">
-                            <li>Market access possible for everyone.</li>
-                            <li>Out of the box approaches work sufficiently well.</li>
-                            <li>Data publicly available.</li>
+                            <ul class="slist2">
+                                <li>Market access possible for everyone.</li>
+                                <li>Out of the box approaches work sufficiently well.</li>
+                                <li>Data publicly available.</li>
 
 
-                        </ul>
+                            </ul>
 
-                    </div>
-                    <div *ngIf="selection == 'leverage'" [@inOutAnimation]
-                        style="text-align: center;align-items: center;">
-                        <h5 style="font-size: x-large; padding-top:5%;">Algorithmic Trading</h5>
+                        </div>
+                        <div *ngIf="selection == 'leverage'" [@inOutAnimation]
+                            style="text-align: center;align-items: center;">
+                            <h5 style="font-size: x-large; padding-top:5%;">Algorithmic Trading</h5>
 
-                        
-                        <ul class="slist2">
-                            <li>Be fast in applying new strategies to the market.</li>
-                            <li>Speed up in experimentation.</li>
-                        </ul>
-                    </div>
-                    <div *ngIf="selection == 'strategy'" [@inOutAnimation]
-                        style="text-align: center;align-items: center;;">
-                        <h5 style="font-size: xxx-large; padding:5%;font-weight: bolder;">Automation</h5>
 
-                        <p class="stext">Focus your platform efforts towards automation of processes. Automatic mode tuning and model deployment.</p>
-                      
+                            <ul class="slist2">
+                                <li>Be fast in applying new strategies to the market.</li>
+                                <li>Speed up in experimentation.</li>
+                            </ul>
+                        </div>
+                        <div *ngIf="selection == 'strategy'" [@inOutAnimation]
+                            style="text-align: center;align-items: center;;">
+                            <h5 style="font-size: xxx-large; padding:5%;font-weight: bolder;">Automation</h5>
 
-                    </div>
-                    <div *ngIf="selection == 'policies'" [@inOutAnimation]
-                        style="text-align: center;align-items: center;">
-                        <h5 style="font-size: x-large; padding-top:5%;">Algorithmic Trading</h5>
-                        <ul class="slist2">
-                            <li>Invest in excellent and fully automated operations.</li>
-                            <li>Optimize Time-to-Value.</li>
-                            <li>...</li>
-                        </ul>
+                            <p class="stext">Focus your platform efforts towards automation of processes. Automatic mode
+                                tuning and model deployment.</p>
 
-                    </div>
-                    <div *ngIf="selection == 'examples'" [@inOutAnimation]
-                        style="text-align: center;align-items: center;;">
-                        <h5 style="font-size: x-large; padding-top:5%;">Algorithmic Trading</h5>
-                        <ul class="slist">
-                            <li>Trading crypto markets.</li>
-                            <li>Short-term intraday trading.</li>
-                        </ul>
-                    </div>
+
+                        </div>
+                        <div *ngIf="selection == 'policies'" [@inOutAnimation]
+                            style="text-align: center;align-items: center;">
+                            <h5 style="font-size: x-large; padding-top:5%;">Algorithmic Trading</h5>
+                            <ul class="slist2">
+                                <li>Invest in excellent and fully automated operations.</li>
+                                <li>Optimize Time-to-Value.</li>
+                                <li>...</li>
+                            </ul>
+
+                        </div>
+                        <div *ngIf="selection == 'examples'" [@inOutAnimation]
+                            style="text-align: center;align-items: center;;">
+                            <h5 style="font-size: x-large; padding-top:5%;">Algorithmic Trading</h5>
+                            <ul class="slist">
+                                <li>Trading crypto markets.</li>
+                                <li>Short-term intraday trading.</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-md-5">
                         <div *ngIf="selection == 'analysis'" [@inOutAnimation]
@@ -344,7 +348,7 @@
                             style="text-align: center;align-items: center;">
                             <h5 style="font-size: x-large; padding-top:5%;">ML in Social Media</h5>
 
-                            
+
                             <ul class="slist2">
                                 <li>Large distribution channels.</li>
                                 <li>Globally available.</li>
@@ -355,8 +359,9 @@
                             style="text-align: center;align-items: center;;">
                             <h5 style="font-size: xxx-large; padding:5%;font-weight: bolder;">Scale</h5>
 
-                            <p class="stext">Scale on the distribution side and make it as easy as possible to consume your service globally</p>
-                          
+                            <p class="stext">Scale on the distribution side and make it as easy as possible to consume
+                                your service globally</p>
+
 
                         </div>
                         <div *ngIf="selection == 'policies'" [@inOutAnimation]
