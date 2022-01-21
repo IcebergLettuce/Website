@@ -3,27 +3,35 @@
     <div class="row">
         <div class="col-md-12">
             <p>
-                This project is likely the driver of my professional and academic development. I started drafting ideas
-                back when I was 17 years old, and even nowadays, I enjoy brainstorming on it from time to time. But let
-                me tell you why I'm here where I am:
-                <br>
-                <br> In 2010, I worked as an automation engineer at one of the largest chocolate manufacturers
-                worldwide. In contrast to the company's television advertising, which portrays the production of
-                chocolate as an artisanal activity, it is a highly automated industrial process.
-                As engineers, we were responsible for keeping the factory running smoothly and taking action in case of
-                outages. <br>An interruption of manufacturing always means a lot of stress for all the involved people.
-                It is not predictable how long it takes to resolve the issues and just think of the immense costs caused
-                by failure.
-                <br><br> Some day, it came to my mind that these failures probably didn't happen by coincidence and that
-                they must be somehow predictable. As an engineer, I was aware that we process all the sensory data of
-                the plants in PLC units. The PLC unit is like the brain of an industrial plant and is programmed to
-                control the manufacturing process. Each plant quickly has hundreds of sensors needed to run the
-                machines.
+
+                In 2010, I worked as an automation engineer at one of the largest chocolate manufacturers worldwide. In
+                contrast to the company's television advertising, which portrays the production of chocolate as an
+                artisanal activity, it is a highly automated industrial process. As engineers, we were responsible for
+                keeping the factory running smoothly and taking action in case of outages.
+                An interruption of manufacturing always means a lot of stress for all the involved people. It is often
+                unknown how long it takes to resolve an issue, and the pressure to fix it quickly is relatively high.
+                This is due to the immense costs caused by an interrupted manufacturing process and the fact that an
+                error affects downstream processes. I was not very happy about this reactive approach where actions are
+                taken after something had happened, and I thought it would be way better to be proactive and try to
+                eliminate the causes of failures before starting the machinery. The math is quite simple, spending 4
+                hours beforehand and replacing a likely damaged machine part is cheaper than having an outage of 4 hours
+                caused by it. This would also lead to a way more robust and reliable manufacturing process in general.
+                <br><br>
+
+                As someone who worked daily with these industrial plants, I was convinced that these failures didn't
+                happen by coincidence. I assumed that they somehow slowly diverge from the ""happy-path" and that this
+                must be measurable. For example, an electrical motor's rotational speed with an unusual high variability
+                or a sensor not correctly detecting goods on a conveyor belt.
+                <br><br>
+
+                All these machine components like sensors, electrical motors, pneumatic systems, etc. are finally
+                somehow connected to the PLC unit. The PLC unit is the brain of the industrial plant, and this is the
+                device where all signals come together. The PLC unit is then programmed to control the manufacturing
+                process. Somewhere in the scramble of these signals is the information about the healthiness of the
+                industrial plant. Extracting this information would possibly help to predict the likelihood of an
+                outage.
 
 
-                <br>
-                <br> <span style="font-weight: bold;">The problem was I just had no idea know how to approach this
-                    project. </span>
             </p>
 
         </div>
@@ -31,14 +39,16 @@
 
     <div class="row">
         <div class="col-md-6" style="display:flex; align-items: center; vertical-align: middle;;display: block;">
-            <img class="grow" src="assets/plc.png" alt="Avatar" width=100% style="border-radius: 5%; padding-top:10px; padding-bottom: 10px;">
-            <figcaption style="text-align: left;font-size:medium;">Example of a PLC used to control industrial plants.
+            <img class="grow" src="assets/plc.png" alt="Avatar" width=100%
+                style="border-radius: 5%; padding-top:10px; padding-bottom: 10px;">
+            <figcaption style="text-align: center;font-size:medium;">Example of a PLC used to control industrial plants.
             </figcaption>
 
         </div>
         <div class="col-md-6" style="display:flex; align-items: center; vertical-align: middle;display: block;">
-            <img class="grow" src="assets/sensor.png" alt="Avatar" width=100% style="border-radius: 5%;padding-top:10px; padding-bottom: 10px;">
-            <figcaption style="text-align: left;font-size:medium">Sensor detecting packages on conveyor belt.
+            <img class="grow" src="assets/sensor.png" alt="Avatar" width=100%
+                style="border-radius: 5%;padding-top:10px; padding-bottom: 10px;">
+            <figcaption style="text-align: center;font-size:medium">Sensor detecting packages on conveyor belt.
             </figcaption>
 
         </div>
@@ -46,44 +56,61 @@
 
     <div class="row">
         <div class="col-md-12">
-            <p>
-                <!-- <span style="font-size: xx-large">
-                Eager to learn
-            </span><br> -->
-                It bugged me so much that I was not capable of working out my idea and providing a solution that I
-                decided to enroll at university. I knew that this was the way to get the toolset required to realize
-                such an undertaking.
+            <p style="margin:0px;;">
+                So, I had the idea, but I lacked the toolset to tackle this problem. At this time, I had never heard of
+                machine learning, nor did I really know how to process large amounts of data. It bugged me so much that
+                I could not work out my idea and provide a solution that I decided to enroll at university and learn
+                about programming and statistics.
+                <br><br>
+                After a few semesters at university, I told a mathematics professor about my old project and that I was
+                looking for a mentor who could point me in the right direction to solve it. Luckily he was very
+                forthcoming to support me and my idea, and he proposed reading and understanding the paper "An
+                introduction to hidden Markov models (HMM)" by L.Rabiner.
                 <br><br>
 
-                After a few semesters at university, I told a mathematics professor about it and that I was looking for
-                a mentor who could point me in the right direction. Thankfully he was very forthcoming to support me and
-                my idea, and he proposed reading and understanding the paper "An introduction to hidden Markov models"
-                by L.Rabiner.
-                Finally, 4 years after the initial idea, I had the tools to tackle the project. I immediately activated
-                my contacts to access PLC data of a chocolate plant and start working on it. Luckily I was not alone on
-                the project
-                anymore. A good friend of mine joined in and was a great collaborator.
+                I gave it another try with a basic understanding of HMM and some programming skills. I reached out to
+                my former engineering colleagues and the factory and begged them to record the signals of a machine that
+                went into a failure state.
+                <br><br>
 
-                <br>
-                <br>
-                After days and nights crunching the PLC data with hidden Markov models, we finally could showcase that a
-                failure state is detectable in the latent space of the HMM <span style="font-weight: bold;">before the
-                    incident actually happens.</span>
+                After days and nights crunching the PLC data with them HMMs, it was finally possible to showcase that a
+                failure state is detectable in the latent space of the HMM before the incident actually happens.
+                <br><br>
+
+                <span style="font-size: large;font-weight: bolder;">What a relief after 4 years of carrying this idea
+                    around!</span>
+
             </p>
-
         </div>
     </div>
 
     <div class="row">
+        <div class="col-md-12">
+            Overall the impact of this project is modest. Building and implementing such a system in real life imposes
+            many hard-to-solve engineering problems. But it was beneficial for me personally. It motivated me to enroll
+            at university and dig into mathematical topics like HMMs as I finally realized that this knowledge is
+            transferable to solve interesting problems.
+            <br>
+            <br>
+
+            Still today, this project comes up again. In 2018 I co-organized with <a href="https://alphazetta.ai"
+                target="_blank" rel="noopener noreferrer">
+                AlphaZetta
+            </a> some MeetUps in Berlin on
+            Analytics, and it is just an ideal topic to talk about. Everyone (almost) likes chocolate, and it is super
+            easy to transfer the idea of predictive maintenance to other domains, as it just makes sense.
+            <br>
+            <br>
+
+
+        </div>
+    </div>
+    <div class="row">
         <div class="col-md-6">
             <div class="col-md-12" style="display:flex; align-items: center; vertical-align: middle;display: block;">
-                <img class="grow" src="assets/meetup4.jpg" alt="Avatar" width=100% style="border-radius: 5%;padding-top:10px; padding-bottom: 10px;">
-                <figcaption style="text-align: left;font-size:medium">Presenting the project at a Berlin Analytics
-                    Meetup, I organized 2018 with
-
-                    <a href="https://alphazetta.ai" target="_blank" rel="noopener noreferrer">
-                        AlphaZetta
-                    </a>
+                <img class="grow" src="assets/meetup4.jpg" alt="Avatar" width=100%
+                    style="border-radius: 5%;padding-top:10px; padding-bottom: 10px;">
+                <figcaption style="text-align: center;font-size:medium">Presenting the project at a Berlin Analytics MeetUp.
 
                     .
                 </figcaption>
@@ -92,30 +119,11 @@
         </div>
         <div class="col-md-6" style="display:flex; align-items: center; vertical-align: middle;display: block;">
 
-            <img class="grow" src="assets/meetup1.jpg" alt="Avatar" width=100% style="border-radius: 5%;padding-top:10px; padding-bottom: 10px;">
-            <figcaption style="text-align: left;font-size:medium">Comparing two charts to show that our algorithm can predict failures in advance.</figcaption>
+            <img class="grow" src="assets/meetup1.jpg" alt="Avatar" width=100%
+                style="border-radius: 5%;padding-top:10px; padding-bottom: 10px;">
+            <figcaption style="text-align: center;font-size:medium">Showing some fancy charts..</figcaption>
 
         </div>
     </div>
-
-
-    <div class="row">
-        <div class="col-md-12">
-            <span style="font-weight: bold;">Why was this project essential for my academic and professional
-                career?</span>
-            <br><br>
-            It let me discover that I have a genuine interest and curiosity in mathematics, processing large amounts of
-            data, and applying the insights to solve real-world problems. From there on, one step led to another. I
-            enrolled in the master's program at the Institute of Mathematics at TU Berlin and pursued a
-            software engineering career.
-
-
-
-        </div>
-    </div>
-
-
-
-
 
 </div>

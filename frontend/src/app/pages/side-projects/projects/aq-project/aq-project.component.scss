@@ -14,13 +14,14 @@
 
 .glow:hover {
     //border: 1px solid aliceblue;
-    box-shadow: 0 0 15px aliceblue;
+    text-shadow: 0 0 15px aliceblue;
     transition: all 0.2s ease;
   }
   
  .high.active {
-    border-color: aliceblue;
-    border:solid 1px;
+    text-shadow: 0 0 15px aliceblue;
+    text-decoration: underline;
+    font-weight:bolder;
     color: aliceblue;
 }
 
