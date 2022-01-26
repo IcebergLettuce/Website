@@ -1,14 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
-@mixin dots($count) {
-  $text-shadow: ();
-  @for $i from 0 through $count {
-    $text-shadow: $text-shadow,
-      (1.0+ (random()) * 1) + em (-1.0+ (random()) * 1) + em 7px hsla(random() *360, 200%, 50%, 1);
-  }
-  text-shadow: $text-shadow;
-}
+// @mixin dots($count) {
+//   $text-shadow: ();
+//   @for $i from 0 through $count {
+//     $text-shadow: $text-shadow,
+//       (1.0+ (random()) * 1) + em (-1.0+ (random()) * 1) + em 7px hsla(random() *360, 200%, 50%, 1);
+//   }
+//   text-shadow: $text-shadow;
+// }
 
 html {
   font: 5vmin/1.3 Serif;
@@ -23,50 +23,50 @@ body {
   color: aliceblue;
 }
 
-.non-animated-container {
-  background: black;
-  padding: 0px;
-  margin: 0px;
-  color: transparent;
-}
+// .non-animated-container {
+//   background: black;
+//   padding: 0px;
+//   margin: 0px;
+//   color: transparent;
+// }
 
-.animated-container {
-  background: black;
-  color: transparent;
-}
+// .animated-container {
+//   background: black;
+//   color: transparent;
+// }
 
-.animated-container::before,
-animated-container::after {
-  position: fixed;
-  top: 20%;
-  left: 20%;
-  width: 0em;
-  height: 0em;
-  content: ".";
-  mix-blend-mode: screen;
-  animation: 20s -30s move infinite ease-in-out alternate;
-}
+// .animated-container::before,
+// animated-container::after {
+//   position: fixed;
+//   top: 20%;
+//   left: 20%;
+//   width: 0em;
+//   height: 0em;
+//   content: ".";
+//   mix-blend-mode: screen;
+//   animation: 20s -30s move infinite ease-in-out alternate;
+// }
 
-.animated-container::before {
-  @include dots(20);
-  animation-duration: 40;
-  animation-delay: 40;
-}
+// .animated-container::before {
+//   @include dots(20);
+//   animation-duration: 40;
+//   animation-delay: 40;
+// }
 
-.animated-container::after {
-  @include dots(20);
-  animation-duration: 40;
-  animation-delay: 40;
-}
+// .animated-container::after {
+//   @include dots(20);
+//   animation-duration: 40;
+//   animation-delay: 40;
+// }
 
-@keyframes move {
-  from {
-    transform: rotate(0deg) scale(8); //translateX(-20px);
-  }
-  to {
-    transform: rotate(30deg) scale(15); //translateX(20px);
-  }
-}
+// @keyframes move {
+//   from {
+//     transform: rotate(0deg) scale(8); //translateX(-20px);
+//   }
+//   to {
+//     transform: rotate(30deg) scale(15); //translateX(20px);
+//   }
+// }
 
 
 @media (max-width: 1000px) {
