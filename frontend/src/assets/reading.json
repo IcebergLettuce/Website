@@ -66,6 +66,11 @@
             "Url": "https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51",
             "Title": "Disasters I've seen in a microservices world ",
             "Description": "Blog by João Alves"
+        },
+        {
+            "Url": "https://github.com/martincostello/dotnet-minimal-api-integration-testing/",
+            "Title": ".NET 6 Integration testing",
+            "Description": "Minimal API integration testing by Martin Costello"
         }
     ]
 }
