@@ -1,8 +1,10 @@
 <div class="wrapper">
+    <ng-particles [id]="id" [options]="particlesOptions" (particlesLoaded)="particlesLoaded($event)" (particlesInit)="particlesInit($event)"></ng-particles>
+
     <div class="container" style="background-color: transparent;margin-top: 50px;">
 
         <div class="row" style="padding:0px;">
-            <div class="col-md-12 d-lg-none" style="border-bottom: aliceblue; padding-bottom:50px;padding-top:50px;margin-bottom: 10px; border-style:solid;
+            <div class="col-md-12 d-lg-none" style="border-bottom: aliceblue; padding-bottom:50px;padding-top:50px;margin-bottom: 10px; border-bottom-style:solid;
                 justify-content: center;align-items: center;display: inline-flex;border-width:1px;">
                 <img src="assets/manuelh.jpg" alt="Avatar" style="border-radius: 10%">
                 <p style="margin-left: 10px;;">Manuel Alexander Hirzel<br> Software Engineer </p>
