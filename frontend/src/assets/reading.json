@@ -9,7 +9,13 @@
             "Url": "https://iximiuz.com/en/posts/container-learning-path/",
             "Title": "Containers",
             "Description": "Learning Containers From The Bottom Up: Efficient Learning Path to Grasp Containers Fundamentals"
+        },
+        {
+            "Url": "https://akuity.io/blog/unveil-the-secret-ingredients-of-continuous-delivery-at-enterprise-scale-with-argocd-kubecon-china-2021/",
+            "Title": "Enterprise ArgoCD",
+            "Description": "Unveil the Secret Ingredients of Continuous Delivery at Enterprise Scale with Argo CD"
         }
+
     ],
     "Networking": [
         {
